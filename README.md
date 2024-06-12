@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # aws-cicd-project
 This Project Deploy a video streaming application on EC2 using Docker and AWS Developers Tools
 =======
@@ -15,4 +14,3 @@ This Project Deploy a video streaming application on EC2 using Docker and AWS De
 - `Identity and Access Management` (IAM) for creating Service Role
 - `S3` for artifact storing
 - `EC2` for Deployment
->>>>>>> master
