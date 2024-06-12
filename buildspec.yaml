@@ -26,7 +26,7 @@ phases:
     commands:
       - echo "waiting right now"
       - docker login -u $USERNAME -p $PASSWORD
-      - docker push perzefi/netflix-react-app:latest
+      - docker push ${USERNAME}/netflix-react-app:latest
 artifacts:
   files:
     - '**/*'
