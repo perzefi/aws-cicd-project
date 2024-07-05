@@ -1,4 +1,3 @@
-#Removed one block
 
 #Creating an internet gateway for our VPC
 resource "aws_internet_gateway" "demo-igw" {
