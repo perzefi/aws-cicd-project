@@ -1,10 +1,4 @@
-#Creating VPC
-resource "aws_vpc" "demo-vpc" {
-  cidr_block = var.vpc_cidr
-  tags = {
-    Name = "3Tier-vpc"
-  }
-}
+#Removed one block
 
 #Creating an internet gateway for our VPC
 resource "aws_internet_gateway" "demo-igw" {
